@@ -13,6 +13,7 @@ class BookListView(TemplateView):
         # 2. restrict books to just books with is_active=True or is_super_active=True
         # 3. show total number of books under list of books
         # 4. show author name next to book title 
+        # 5. add link to html to redirect to list of authors(AuthorListView)
         return context_data
 
 class AuthorListView(TemplateView):
