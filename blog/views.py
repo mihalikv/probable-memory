@@ -2,6 +2,8 @@ from typing import Any
 
 from django.views.generic import TemplateView
 
+from blog.models import Book
+
 
 class BookListView(TemplateView):
     template_name = "list.html"
